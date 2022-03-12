@@ -1,6 +1,6 @@
 FROM quay.io/lyfe00011/test:beta
 
-RUN git clone https://github.com/kaviyaah2/dttdia /root/QUEENDIANA
+RUN git clone https://github.com/kavishkaya2/dioo /root/QUEENDIANA
 WORKDIR /root/QUEENDIANA/
 RUN yarn install --no-audit
 RUN git clone https://github.com/kaviyaah2/uploads
